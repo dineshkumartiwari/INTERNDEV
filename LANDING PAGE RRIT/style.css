@@ -1,0 +1,633 @@
+* {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+header nav {
+
+    display: flex;
+    margin-top: 1px;
+    height: 90px;
+}
+
+header nav .right ul {
+    display: flex;
+    list-style: none;
+    padding-left: 340px;
+    padding-top: 18px;
+
+}
+
+header nav ul a li {
+    width: max-content;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li:hover {
+    color: rgb(62, 117, 219);
+}
+
+header .left {
+    padding-top: 5px;
+    color: rgb(100, 177, 248);
+    padding-left: 100px;
+
+}
+
+header .left a {
+    text-decoration: none;
+    color: rgb(11, 76, 151);
+}
+
+header .left a span {
+    font-size: 35px;
+    color: orangered;
+}
+
+header h1 {
+    font-size: 35px;
+
+}
+
+header p {
+    margin-top: 7px;
+    padding-left: 4px;
+    font-weight: bold;
+}
+
+/* img section */
+.img-section {
+    width: 100%;
+    height: 570px;
+    background-image: url(./images/slide.jpg);
+    background-size: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+/* services-section */
+
+.services-section {
+    height: 330px;
+    display: flex;
+    background: rgb(39, 112, 221);
+    border-top: 2px solid white;
+}
+
+.services-section h2 {
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 530px;
+    font-size: 38px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 0 rgb(56, 53, 53);
+
+}
+
+.services-section .box {
+    margin-top: 90px;
+    height: 250px;
+    width: 100vw;
+    margin-left: 14px;
+
+}
+
+.services-section .box img {
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.services-section #w-d p {
+    margin-left: 38px;
+}
+
+.services-section #a-d p {
+    margin-left: 25px;
+}
+
+.services-section #s-d p {
+    margin-left: 9px;
+}
+
+.services-section #seo p {
+    margin-left: 45px;
+    width: 8vw;
+}
+
+.services-section #c-m p {
+    margin-left: 59px;
+    width: 8vw;
+}
+
+.services-section #s-t p {
+    margin-left: 40px;
+    /* width: 8vw; */
+}
+
+.services-section .box p {
+    margin-left: 29px;
+    color: aliceblue;
+    margin-top: 10px;
+
+}
+
+/* About */
+.about {
+    background-image: url(./images/background-texture.jpg);
+
+    padding-top: 120px;
+    display: flex;
+    height: 100vh;
+}
+
+.about .about-right img {
+    height: 350px;
+    margin-left: 150px;
+    padding-top: 35px;
+}
+
+.about .about-left {
+    width: 45vw;
+    text-align: justify;
+    padding-top: 35px;
+
+    margin-left: 70px;
+}
+
+.about .about-left h2 {
+    font-size: 29px;
+    color: orangered;
+}
+
+.about .about-left h3 {
+    color: rgb(103, 105, 107);
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+
+.about .about-left p {
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: rgb(78, 79, 80);
+}
+
+/* expert section */
+.expert-services {
+    display: flex;
+    height: 100vh;
+    padding-top: 180px;
+    background-image: url(./images/expert-bg.jpg);
+    background-size: 100%;
+}
+
+.expert-services img {
+    height: 300px;
+    padding-left: 95px;
+}
+
+.expert-services .right-expert-services {
+    margin-right: 100px;
+    text-align: justify;
+    width: 60vw;
+    padding-left: 130px;
+}
+
+.expert-services .right-expert-services h2 {
+    font-size: 29px;
+    margin-top: -50px;
+    color: orangered;
+
+}
+
+.expert-services .right-expert-services h3 {
+    color: rgb(103, 105, 107);
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.expert-services .right-expert-services p {
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: rgb(78, 79, 80);
+}
+
+.expert-services .right-expert-services ul {
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: rgb(41, 43, 43);
+    font-weight: bold;
+}
+
+/* industry */
+.industry {
+    height: 110vh;
+    background-color: rgb(197, 242, 245);
+}
+
+.industry #industry-heading {
+    font-size: 29px;
+    width: 90vw;
+    padding-left: 150px;
+    padding-top: 50px;
+    color: rgb(57, 58, 58);
+}
+
+.industry #industry-heading span {
+    color: red;
+    font-size: 29px;
+}
+
+.industry .companies {
+    margin-left: 140px;
+    margin-top: 30px;
+    display: flex;
+    cursor: pointer;
+}
+
+.industry .companies p:hover {
+    transition: 0.2s;
+    box-shadow: 8px 8px 15px black;
+}
+
+.industry .companies p {
+    background-color: rgb(252, 252, 252);
+    margin: 15px;
+    margin-bottom: -25px;
+    width: 18vw;
+    height: 13vh;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 23px;
+    border-radius: 10px;
+    color: rgb(16, 95, 160);
+
+}
+
+/* technology */
+.technology {
+    background-image: url(./images/bg2.jpg);
+    background-size: 100% 100%;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+
+}
+
+.technology #technology-heading h2 {
+    color: rgb(90, 88, 88);
+    text-shadow: 4px 3px 8px rgb(97, 94, 94);
+    margin-top: 80px;
+    margin-left: 540px !important;
+    height: 50px;
+    font-size: 39px;
+    position: absolute;
+
+}
+
+.technology p {
+    padding-left: 60px;
+    font-size: 23px;
+    color: rgb(61, 59, 59);
+    text-shadow: 2px 2px 5px;
+}
+
+.technology img {
+    margin-top: 200px !important;
+    border: 1px solid rgb(43, 119, 233);
+    height: 250px;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+/* outstanding */
+.outstanding {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.outstanding h2 {
+    font-size: 30px;
+    padding-top: 80px;
+    padding-left: 290px;
+}
+
+.outstanding h2 span {
+    font-size: 30px;
+    color: orangered;
+}
+
+.outstanding .outstanding-div {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 65px;
+
+
+}
+
+.outstanding .outstand-box {
+    margin: 40px;
+
+}
+
+.outstanding .outstanding-div img {
+    height: 35vh;
+    padding-left: 40px;
+}
+
+.outstanding .outstanding-div h3 {
+    margin-top: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+.outstanding .outstanding-div p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: rgb(129, 125, 125);
+    width: 350px;
+    margin-left: -10px;
+
+    text-align: justify;
+}
+
+.why-choose {
+    background-image: url(./images/whychoose\ background.jpeg);
+    background-size: 100% 100%;
+    height: 110vh;
+}
+
+.why-choose img {
+    margin-top: 28vh;
+    margin-left: 42vw;
+    height: 200px;
+}
+
+.why-choose .left {
+    background-color: rgb(235, 185, 48);
+    width: 400px;
+    height: 250px;
+    margin-top: -250px;
+    border-radius: 20px;
+    margin-left: 50px;
+    position: absolute;
+    box-shadow: 5px 8px 18px;
+    padding-top: 80px;
+    padding: 50px 30px;
+
+}
+
+.why-choose .left h3 {
+    color: rgb(11, 83, 165);
+    font-size: 18px;
+}
+
+.why-choose .left p {
+    padding-top: 20px;
+    color: rgb(49, 48, 48);
+    text-align: justify;
+}
+
+.why-choose .right {
+    background-color: rgb(235, 185, 48);
+    width: 400px;
+    height: 250px;
+    margin-top: -250px;
+    border-radius: 20px;
+    margin-left: 890px;
+    position: absolute;
+    box-shadow: 5px 8px 18px;
+    padding-top: 80px;
+    padding: 50px 30px;
+
+}
+
+.why-choose .right h3 {
+    color: rgb(11, 83, 165);
+    font-size: 18px;
+}
+
+.why-choose .right p {
+    padding-top: 20px;
+    color: rgb(49, 48, 48);
+    text-align: justify;
+}
+
+.why-choose .bottom {
+    background-color: rgb(235, 185, 48);
+    width: 400px;
+    height: 250px;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 460px;
+    position: absolute;
+    box-shadow: 5px 8px 18px;
+    padding-top: 80px;
+    padding: 50px 30px;
+}
+
+.why-choose .bottom p {
+    padding-top: 20px;
+    color: rgb(49, 48, 48);
+    text-align: justify;
+}
+
+.why-choose .bottom h3 {
+    color: rgb(11, 83, 165);
+    font-size: 18px;
+}
+
+/* contact us form */
+.contact-section {
+    height: 450px;
+    display: flex;
+    position: absolute;
+    width: 80vw;
+    margin-left: 120px;
+    margin-top: 100px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 3px 5px 25px rgb(19, 20, 20);
+}
+
+.form {
+
+    height: 100vh;
+    background-color: rgb(205, 237, 250);
+}
+
+.contact-section h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: orangered;
+}
+
+.contact-section .left-contact {
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 180px;
+}
+
+.contact-section .left-contact #mail-call {
+    margin-bottom: 250px;
+}
+
+.contact-section .left-contact .social {
+    margin-top: 33px;
+    margin-left: -13px;
+}
+
+.contact-section .left-contact .social img {
+    height: 20px;
+    margin: 15px;
+}
+
+.contact-section .mail-contact img {
+    height: 20px;
+}
+
+.contact-section .mail-contact p {
+    margin: -22px 50px;
+}
+
+.contact-section .call-contact img {
+    height: 20px;
+    margin-top: 40px;
+}
+
+.contact-section .call-contact p {
+    margin: -22px 50px;
+}
+
+.contact-section .right-contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.contact-section .right-contact input {
+    margin: 10px;
+    height: 50px;
+    width: 500px;
+    margin-left: -150px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 75, 75);
+}
+
+.contact-section #submit {
+    background-color: rgb(30, 122, 175);
+    width: 510px;
+}
+
+.contact-section #submit:hover {
+
+    background-color: rgb(219, 26, 26);
+}
+
+.contact-section #submit:active {
+    background-color: rgb(12, 179, 62);
+}
+
+.contact-section .right-contact input:hover {
+    transition: 0s;
+    background-color: rgb(233, 91, 91);
+}
+
+/* footer */
+footer {
+    display: flex;
+    background-color: rgb(44, 17, 145);
+    height: 70vh;
+}
+
+footer .menu {
+    height: 50vh;
+    /* margin-top:20px; */
+    margin: 23px 30px 20px 65px;
+
+
+}
+
+footer .menu li {
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 18px;
+    margin-left: 0px;
+    list-style: none;
+}
+
+footer .menu h2 {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+footer .menu hr {
+    height: 3px;
+    background-color: aliceblue;
+}
+
+footer .lower-footer {
+    background-color: rgb(31, 3, 77);
+    height: 20vh;
+    margin-top: 325px;
+    width: 98.5vw;
+    position: absolute;
+    display: flex;
+}
+
+footer .lower-footer .lw-ftr {
+    width: 300px;
+    color: rgb(212, 215, 218);
+    margin-top: 30px;
+    margin-left: 110px;
+    font-size: 15px;
+    text-align: justify;
+}
+footer .lower-footer span{
+    color: orangered;
+    font-size: 25px;
+}
+footer .lower-footer #poweredby{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+
+
+
+/*--------- responsive--------- */
+
